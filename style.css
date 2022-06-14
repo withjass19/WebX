@@ -193,65 +193,6 @@ html {
 }
 /* End Hero Section */
 
-/* Tutorial */
-.tutorial {
-	width: 100%;
-	min-height: 50vh;
-	padding: 10rem 5rem;
-	flex-direction: column;
-}
-.tutorial .tutorial-info {
-	text-align: center;
-}
-.tutorial .tutorial-info .tutorial-info-heading {
-	font-size: 4rem;
-	text-transform: uppercase;
-	letter-spacing: .3rem;
-	color: black;
-}
-.tutorial .tutorial-info .tutorial-info-desc {
-	font-size: 1.3rem;
-	line-height: 2rem;
-	margin-top: 10px;
-}
-.tutorial .tutorial-info .tutorial-info-button {
-	padding: 1.6rem 2.6rem;
-	display: inline-block;
-	background-color: rgba(0, 0, 0, 0.548);
-	color: whitesmoke;
-	text-decoration: none;
-	font-size: 1.6rem;
-	text-transform: uppercase;
-	letter-spacing: .2rem;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-.tutorial .tutorial-img {
-	margin-top: 50px;
-	display: block;
-}
-.tutorial .tutorial-img .tutorial-img-wrapper {
-	margin-top: 50px;
-	height: auto;
-	max-width: 400px;
-	position: relative;
-	display: inline-block;
-}
-.tutorial .tutorial-img .tutorial-img-wrapper img {
-	height: 100%;
-	width: 100%;
-}
-.tutorial .tutorial-img .tutorial-img-wrapper::after {
-	position: absolute;
-	content: '';
-	right: -5rem;
-	top: 50%;
-	transform: translateY(-50%);
-	width: 70%;
-	height: 120%;
-	background-color: rgba(34, 33, 33, 0.158);
-	z-index: -1;
-}
 /* About Section  */
 .about {
 	width: 100%;
