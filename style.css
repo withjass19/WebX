@@ -184,8 +184,8 @@ html {
 }
 .hero .hero-img {
 	height: 100%;
-	width: 55%;
-	margin-bottom: 3rem;
+	width: 45%;
+	/* margin-bottom: 1rem; */
 }
 .hero .hero-img img {
 	height: 100%;
